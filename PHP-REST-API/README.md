@@ -6,31 +6,28 @@ PHP REST API
 
 
 -- CREATE TABLE "customers" --------------------------------
+
 CREATE TABLE `customers` ( 
-	`id` Int( 255 ) AUTO_INCREMENT NOT NULL, 
+	`id` Int( 255 ) AUTO_INCREMENT NOT NULL,
 	`name` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, 
 	`phone_number` Int( 255 ) NOT NULL,
 	 PRIMARY KEY ( `id` )
  )
-CHARACTER SET = utf8
-COLLATE = utf8_general_ci
-ENGINE = InnoDB
-AUTO_INCREMENT = 13;
+
 -- ---------------------------------------------------------
 
 
+
 -- CREATE TABLE "addresses" --------------------------------
+
 CREATE TABLE `addresses` ( 
 	`id` Int( 255 ) AUTO_INCREMENT NOT NULL, 
-	`society` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, 
-	`street` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, 
+	`society` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+	`street` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
 	`customer_id` Int( 255 ) NOT NULL,
 	 PRIMARY KEY ( `id` )
  )
-CHARACTER SET = utf8
-COLLATE = utf8_general_ci
-ENGINE = InnoDB
-AUTO_INCREMENT = 1;
+
 -------------------------------------------------------------
 
 
