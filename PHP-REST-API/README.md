@@ -31,28 +31,35 @@ CREATE TABLE `addresses` (
 -------------------------------------------------------------
 
 
-List OF Rest API's
+# List OF Rest API's
 
 
 1. URL :- POST /customers
+
    DESCRIPTION :- Create new Customer
 
 2. URL :- GET /customers
+
    DESCRIPTION :- Get All Customers
 
 3. URL :- GET /customers/[:id]
+
    DESCRIPTION :- Get Customer Details by given id
 
 4. URL :- POST /addresses
+
    DESCRIPTION :- Create new Address
 
 5. URL :- GET /addresses
+
    DESCRIPTION :- Get All Addresses
 
 6. URL :- GET /addresses/[:id]
+
    DESCRIPTION :- Get Address by id
 
 7. URL :- GET customer/addresses/[:customer_id]
+
    DESCRIPTION :- Get All Addresses of a customer
 
 
